@@ -152,6 +152,10 @@
     background-color: #252830;
 }
 
+.menu__item_active {
+    background-color: #131417;
+}
+
 .menu__sublist {
     padding: 0;
     list-style: none;
@@ -169,6 +173,7 @@
 
 .menu__sublist_active {
     display: block;
+    background-color: #252830;
 }
 
 .menu__subitem {

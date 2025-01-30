@@ -33,6 +33,7 @@ if (menuItems.length > 0) {
     for (let index = 0; index < menuItems.length; index++) {
         const menuItem = menuItems[index];
         menuItem.addEventListener('click', function (event) {
+            menuItem.classList.toggle('menu__item_active');
             menuItem.querySelector('.menu__sublist').classList.toggle('menu__sublist_active');
             menuItem.querySelector('.menu__drop').classList.toggle('menu__drop_active');
         });
